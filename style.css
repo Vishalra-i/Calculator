@@ -57,23 +57,24 @@ form input.operator{
         background-size: cover;  
     }
     .container{
-    width: 450px;
-    height: 600px;
     margin-top: 20px;
     border-radius: 5px;
     padding: 5px;
     background: none;
    }
+   .calculator{
+    width: 310px;
+    height: 450px;
+    padding: 20px;
+    padding-bottom: 25px;
+   }
    .calculator form input{
-    width: 32px;
-    height: 32px;
-    font-size: 10px;
-    margin: 3px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    margin: 8px;
    }
    #equal{
-    width: 40px;
-   }
-   form .display input{
-    background-color: transparent;
+    width: 112px;
    }
 }
