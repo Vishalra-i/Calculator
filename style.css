@@ -52,12 +52,17 @@ form input.operator{
     color: #33ffd8;
 }
 @media screen and (max-width:400px) {
-   .container{
-    width: 300px;
-    height: 500px;
+    body{
+        background: url("https://t3.ftcdn.net/jpg/06/21/25/92/240_F_621259213_LYBEjxigssrZi7e1xTFtYZdw3T9it1An.jpg") no-repeat  ;
+        background-size: cover;  
+    }
+    .container{
+    width: 450px;
+    height: 600px;
     margin-top: 20px;
     border-radius: 5px;
     padding: 5px;
+    background: none;
    }
    .calculator form input{
     width: 32px;
